@@ -1,0 +1,91 @@
+# ======== PROJET MOTION CAM-RF ========
+# Fichiers à ignorer pour Arduino, ESP32, Word, et Windows
+
+# --- Fichiers systèmes ---
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# --- Sauvegardes et temporaires ---
+*.tmp
+*.bak
+*.old
+*.swp
+*.swo
+*.log
+~$*
+*.temp
+
+# --- Fichiers Microsoft Office ---
+*.docx~
+~$*.docx
+~$*.xlsx
+~$*.pptx
+*.lock
+*.wbk
+
+# --- Dossiers temporaires Word/Office ---
+~$*
+*.lnk
+
+# --- Arduino / ESP32 ---
+*.bin
+*.elf
+*.hex
+*.map
+*.out
+*.pyc
+*.pyo
+*.dSYM/
+*.zip
+*.tar
+*.gz
+
+# --- Fichiers de build PlatformIO ou Arduino ---
+.pio/
+build/
+cmake-build*/
+CMakeFiles/
+CMakeCache.txt
+*.a
+*.o
+*.obj
+
+# --- Bibliothèques compilées ---
+*.so
+*.dll
+*.dylib
+*.lib
+*.exe
+
+# --- Sauvegardes de logs ou captures ---
+logs/
+captures/
+*.jpg
+*.png
+*.bmp
+
+# --- Sauvegardes de projet IDE ---
+.vscode/
+.idea/
+*.iml
+
+# --- Fichiers générés automatiquement ---
+__pycache__/
+*.pyc
+*.pyo
+
+# --- Fichiers locaux utilisateur Git ---
+.gitignore~
+.gitconfig
+.gitattributes~
+*.orig
+
+# --- Archives et exports ---
+*.zip
+*.rar
+*.7z
+*.tar.gz
+
+# ======== FIN DU .GITIGNORE ========

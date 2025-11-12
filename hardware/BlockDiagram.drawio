@@ -1,0 +1,92 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="28.2.9">
+  <diagram name="Page-1" id="DsF6ak7lDExDjtq735JB">
+    <mxGraphModel dx="786" dy="39" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" background="#ffffff" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-37" value="" style="rounded=1;whiteSpace=wrap;html=1;fillOpacity=0;fillColor=#000000;fillStyle=hatch;" parent="1" vertex="1">
+          <mxGeometry x="170" y="460" width="580" height="350" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-28" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="330" y="650" width="180" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-29" value="" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+          <mxGeometry x="560" y="650" width="180" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-23" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gHl2gYSXZrDV8dkQeWc0-41" target="gHl2gYSXZrDV8dkQeWc0-1" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-1" value="ESP32-P4NRW32" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="695" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-2" value="Détecteur présenceHC-SR501" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="180" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-5" value="" style="endArrow=classic;html=1;rounded=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" parent="1" source="gHl2gYSXZrDV8dkQeWc0-2" target="gHl2gYSXZrDV8dkQeWc0-1" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="680" as="sourcePoint" />
+            <mxPoint x="330" y="680" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-11" value="&lt;span style=&quot;font-size:10.0pt;mso-bidi-font-size:9.0pt;&lt;br/&gt;line-height:107%;font-family:&amp;quot;Arial&amp;quot;,sans-serif;mso-fareast-font-family:Calibri;&lt;br/&gt;mso-fareast-theme-font:minor-latin;mso-bidi-font-family:&amp;quot;Times New Roman&amp;quot;;&lt;br/&gt;mso-bidi-theme-font:minor-bidi;mso-ansi-language:FR;mso-fareast-language:EN-US;&lt;br/&gt;mso-bidi-language:AR-SA&quot;&gt;ESP32-C6-MINI-1&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="590" y="650" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-16" value="Écran TFT IPS 5″ (1280×720)" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="335" y="745" width="170" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-17" value="Hotspot Wi-Fi" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="480" y="490" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-14" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;dashed=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.8;exitY=0.8;exitDx=0;exitDy=0;exitPerimeter=0;" parent="1" source="gHl2gYSXZrDV8dkQeWc0-17" target="gHl2gYSXZrDV8dkQeWc0-29" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="600.0000000000002" y="600" as="sourcePoint" />
+            <mxPoint x="550" y="760" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-19" value="Wifi 2.4GHz" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=51;rounded=1;" parent="gHl2gYSXZrDV8dkQeWc0-14" vertex="1" connectable="0">
+          <mxGeometry x="0.0226" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-24" value="Caméra OV2640" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="615" y="710" width="70" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-30" value="M5Stack TAB5" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="370" y="770" width="100" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-31" value="ESP32-CAM" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="610" y="745" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-12" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=1;dashed=1;entryX=0.13;entryY=0.77;entryDx=0;entryDy=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryPerimeter=0;" parent="1" source="gHl2gYSXZrDV8dkQeWc0-28" target="gHl2gYSXZrDV8dkQeWc0-17" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="380" y="680" as="sourcePoint" />
+            <mxPoint x="540" y="600" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-21" value="Wifi 2.4GHz" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];rotation=-52;rounded=1;" parent="gHl2gYSXZrDV8dkQeWc0-12" vertex="1" connectable="0">
+          <mxGeometry x="0.1314" y="-1" relative="1" as="geometry">
+            <mxPoint x="-3" y="3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-38" value="MOTION CAM-RF" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=1;" parent="1" vertex="1">
+          <mxGeometry x="341" y="460" width="228" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-41" value="ESP32-C6-MINI-1U" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="650" width="120" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-46" value="" style="endArrow=classic;html=1;rounded=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="gHl2gYSXZrDV8dkQeWc0-1" target="gHl2gYSXZrDV8dkQeWc0-16" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="370" y="780" as="sourcePoint" />
+            <mxPoint x="420" y="730" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gHl2gYSXZrDV8dkQeWc0-56" value="" style="endArrow=classic;html=1;rounded=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" parent="1" source="gHl2gYSXZrDV8dkQeWc0-11" target="gHl2gYSXZrDV8dkQeWc0-24" edge="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="560" y="700" as="sourcePoint" />
+            <mxPoint x="610" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
