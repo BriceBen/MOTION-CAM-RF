@@ -1,6 +1,7 @@
 README – Motion CAM-RF
 
 Academic project carried out as part of the 5th year of engineering school at the University of Versailles Saint-Quentin-en-Yvelines
+
 Specialization: Embedded Electronic Systems
 
 Wireless motion detection and video transmission system based on ESP32-CAM and M5Stack Tab5.
