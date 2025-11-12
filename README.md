@@ -1,65 +1,62 @@
-******************************************README – Motion CAM-RF************************************
+README – Motion CAM-RF
+Academic project carried out as part of the 5th year of engineering school
+at the University of Versailles Saint-Quentin-en-Yvelines************
+Specialization: Embedded Electronic Systems*****************************
 
-**************Projet scolaire réalisé dans le cadre de la 5ᵉ année d’école d’ingénieur**************
-**************à l’Université de Versailles Saint-Quentin-en-Yvelines********************************
-**************spécialité Systèmes Électroniques Embarqués*******************************************
+Wireless motion detection and video transmission system based on ESP32-CAM and M5Stack Tab5.
 
+Project Description:
+The Motion CAM-RF project aims to design and document an embedded local surveillance system combining motion detection and real-time video transmission. When motion is detected by the HC-SR501 sensor, the M5Stack Tab5 tablet automatically establishes a Wi-Fi connection with the ESP32-CAM to display the corresponding MJPEG video stream.
+This system operates indoors on a local 2.4 GHz Wi-Fi network provided by a smartphone hotspot. The project is part of an academic study focusing on radiofrequency transmission, hardware integration, and embedded development.
 
-Système de détection de mouvement et de transmission vidéo sans fil basé sur ESP32-CAM et M5Stack Tab5.
-
-Description du projet:
-
-Le projet Motion CAM-RF vise à concevoir et documenter un système embarqué de surveillance locale combinant détection de mouvement et transmission vidéo en temps réel. Lorsqu’un mouvement est détecté par le capteur HC-SR501, la tablette M5Stack Tab5 établit automatiquement une connexion Wi-Fi avec la caméra ESP32-CAM afin d’afficher le flux vidéo MJPEG correspondant.
-
-Ce système fonctionne en environnement intérieur, sur un réseau Wi-Fi local (2,4 GHz) fourni par un smartphone en mode hotspot. Le projet s’inscrit dans une démarche académique d’étude de la transmission radiofréquence, de l’intégration matérielle et du développement embarqué.
-
-Architecture du système:
+System Architecture:
 HC-SR501 → M5Stack Tab5 ⇄ Wi-Fi 2.4 GHz ⇄ ESP32-CAM
 
-Description des éléments :
-- HC-SR501 : capteur infrarouge passif (PIR) détectant le mouvement humain par variation thermique.
-- M5Stack Tab5 : unité centrale de commande, traitement de l’événement, affichage et gestion réseau.
-- ESP32-CAM : module caméra embarqué diffusant un flux vidéo MJPEG via Wi-Fi.
-- Hotspot Smartphone : point d’accès Wi-Fi 2,4 GHz (WPA2-PSK) reliant la Tab5 et la caméra.
+Component Description:
 
-Spécifications techniques:
-- Bande Wi-Fi : 2.4 GHz (IEEE 802.11 b/g/n)
-- Modulation : OFDM / DSSS
-- Puissance RF max (EIRP) : 100 mW (20 dBm)
-- Portée typique : ~10 m en intérieur
-- Latence d’affichage : < 5 s
-- Alimentation : 5 V DC (USB-C ou alimentation stabilisée)
-- Usage prévu : Intérieur uniquement
-- Sécurité Wi-Fi : WPA2-PSK
-- Norme de conformité CE : RED 2014/53/EU
+HC-SR501: Passive infrared (PIR) sensor detecting human motion through thermal variation.
+M5Stack Tab5: Central control unit responsible for event handling, display, and network management.
+ESP32-CAM: Embedded camera module streaming MJPEG video via Wi-Fi.
+Smartphone Hotspot: 2.4 GHz Wi-Fi access point (WPA2-PSK) connecting the Tab5 and the camera.
 
-Fonctionnalités principales:
-- Détection de mouvement par capteur PIR (HC-SR501)
-- Affichage en temps réel du flux MJPEG sur la Tab5
-- Connexion automatique au point d’accès Wi-Fi
-- Reconnexion automatique après coupure réseau
-- Temporisation d’affichage (30 s après la dernière détection)
-- Enregistrement local des images sur la Tab5 (carte microSD)
-- Interface tactile simple et intuitive
+Technical Specifications:
+Wi-Fi Band: 2.4 GHz (IEEE 802.11 b/g/n)
+Modulation: OFDM / DSSS
+Max RF Power (EIRP): 100 mW (20 dBm)
+Typical Range: ~10 m indoors
+Display Latency: < 5 s
+Power Supply: 5 V DC (USB-C or regulated power source)
+Intended Use: Indoor only
+Wi-Fi Security: WPA2-PSK
+CE Compliance Standard: RED 2014/53/EU
 
-Composants matériels:
-- HC-SR501 : Capteur PIR – 5V – champ 120° – portée 3 à 7 m
-- M5Stack Tab5 : Contrôleur et affichage – ESP32-P4 + ESP32-C6 – écran tactile 5″ – Wi-Fi 6 – SD intégrée
-- ESP32-CAM : Capture vidéo – OV2640 – 2 Mpx – MJPEG HTTP – Wi-Fi 2.4 GHz
-- Hotspot Smartphone : Point d’accès – Wi-Fi 2.4 GHz WPA2 – DHCP – IP dynamique
+Main Features:
+Motion detection via PIR sensor (HC-SR501)
+Real-time MJPEG video display on the Tab5
+Automatic Wi-Fi access point connection
+Automatic reconnection after network loss
+Display timeout (30 s after last detection)
+Local image storage on Tab5 (microSD card)
+Simple and intuitive touchscreen interface
 
-Conformité réglementaire
+Hardware Components:
+HC-SR501: PIR sensor – 5V – 120° field of view – 3 to 7 m range
+M5Stack Tab5: Controller & display – ESP32-P4 + ESP32-C6 – 5″ touchscreen – Wi-Fi 6 – integrated SD
+ESP32-CAM: Video capture – OV2640 – 2 MP – MJPEG HTTP – 2.4 GHz Wi-Fi
+Smartphone Hotspot: Access point – 2.4 GHz Wi-Fi WPA2 – DHCP – dynamic IP
 
-- Le projet Motion CAM-RF s’appuie sur des composants électroniques conformes aux exigences européennes de la directive RED 2014/53/EU.
+Regulatory Compliance:
+The Motion CAM-RF project is based on electronic components compliant with European requirements under the RED 2014/53/EU directive.
 
-Normes principales :
-- Sécurité : EN 62368-1:2020 (sécurité des équipements radio et multimédia)
-- Exposition RF : EN 62479:2010 / EN 62311:2020 (évaluation de l’exposition humaine)
-- CEM (EMC) : EN 301 489-1 / -17 (compatibilité électromagnétique Wi-Fi / Bluetooth)
-- Radio : EN 300 328 V2.2.2 (transmission 2.4 GHz large bande)
-- Cybersécurité : EN 303 645:2020 (sécurité des objets connectés IoT)
-- Les modules ESP32-C6 et ESP32-P4 utilisés dans la M5Stack Tab5 sont pré-certifiés CE et FCC, conformément à la documentation Espressif.
+Main Standards:
+Safety: EN 62368-1:2020 (safety of radio and multimedia equipment)
+RF Exposure: EN 62479:2010 / EN 62311:2020 (human exposure assessment)
+EMC: EN 301 489-1 / -17 (Wi-Fi / Bluetooth electromagnetic compatibility)
+Radio: EN 300 328 V2.2.2 (broadband 2.4 GHz transmission)
 
-Auteur:
-- Projet Motion CAM-RF
-- Réalisé par : Brice BENINI
+Cybersecurity: EN 303 645:2020 (IoT device security)
+The ESP32-C6 and ESP32-P4 modules used in the M5Stack Tab5 are CE and FCC pre-certified, as documented by Espressif.
+
+Author:
+Project: Motion CAM-RF
+Developed by: Brice BENINI

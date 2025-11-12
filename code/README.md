@@ -1,4 +1,4 @@
-Ce dossier contient les fichiers sources du projet Motion CAM-RF. 
-Il regroupe le code de la caméra ESP32-CAM et celui de la tablette M5Stack Tab5. 
-Le premier programme (espcam.ino) permet à la caméra de démarrer un serveur HTTP diffusant un flux vidéo MJPEG sur le réseau Wi-Fi 2,4 GHz. Le second programme (esptab5.ino) gère la détection de mouvement à partir du capteur PIR HC-SR501 et affiche automatiquement le flux vidéo de la caméra sur l’écran de la Tab5 lorsqu’un mouvement est détecté. 
-Les deux dispositifs communiquent via un réseau local créé par le hotspot du smartphone. L’ensemble du code a été développé sous Arduino IDE en langage C/C++ avec les bibliothèques WiFi.h, HTTPClient.h, esp_camera.h et M5Unified.h.
+This folder contains the source files for the Motion CAM-RF project.
+It includes the code for both the ESP32-CAM camera and the M5Stack Tab5 tablet.
+The first program (espcam.ino) allows the camera to start an HTTP server that streams an MJPEG video feed over the 2.4 GHz Wi-Fi network. The second program (esptab5.ino) handles motion detection using the PIR sensor HC-SR501 and automatically displays the camera’s video stream on the Tab5 screen when motion is detected.
+Both devices communicate through a local network created by the smartphone hotspot. The entire code was developed in Arduino IDE using C/C++ with the libraries WiFi.h, HTTPClient.h, esp_camera.h, and M5Unified.h.
