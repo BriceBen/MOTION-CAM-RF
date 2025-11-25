@@ -32,6 +32,25 @@ Display timeout (30 s after last detection)
 Local image storage on Tab5 (microSD card)
 Simple and intuitive touchscreen interface
 
+USAGE
+1. Enable smartphone hotspot
+2. Power the M5Stack Tab5 and ESP32-CAM
+3. When motion is detected:
+   - Tab5 opens http://CAM_IP:81/stream
+   - Live video appears
+   - A snapshot is saved every 3 seconds
+4. The ESP32-CAM Web UI is available at: http://CAM_IP/
+
+TESTS AND PERFORMANCE
+- Average latency: 1 to 3 seconds
+- Reliable indoor range: up to 10 meters
+- Transmission power: ≤ 20 dBm (RED-compliant)
+- Typical stream rate: 5–15 FPS
+
+DOCUMENTATION
+The full technical specification is available in the docs folder.
+
+
 
 Regulatory Compliance:
 The Motion CAM-RF project is based on electronic components compliant with European requirements under the RED 2014/53/EU directive.
